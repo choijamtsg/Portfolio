@@ -25,7 +25,7 @@ export const en: Dictionary = {
     line2: "interfaces —",
     accent: "clear and smooth.",
     subcopy:
-      "Frontend for web products in React, Next.js and TypeScript. Based in Pisa, Italy, and shipping with a team.",
+      "Frontend for web products in React, Next.js and TypeScript. Based in Pisa, Italy — working remotely with a team while I study.",
     ctaWork: "See the work",
     ctaContact: "Get in touch",
   },
@@ -37,7 +37,7 @@ export const en: Dictionary = {
       "I'm Choijamts, a frontend developer. I care about interfaces people understand in the first second — and that stay fast under real use.",
     story: [
       "I'm studying Computer Science at the University of Pisa (Università di Pisa) in Pisa, Italy. Working on real projects alongside classes has taught me the most.",
-      "Since July 2026 I have been a frontend developer at Retro Mind LLC. I am also part of the SparkXP team, where I handle the frontend.",
+      "Since July 2026 I have been working remotely as a frontend developer at Retro Mind LLC, from Italy — and I keep shipping alongside my classes. I am also part of the SparkXP team, where I handle the frontend.",
     ],
 
     principlesLabel: "Principles",
@@ -69,17 +69,18 @@ export const en: Dictionary = {
       {
         year: "2026 · July",
         title: "First job",
-        detail: "Joined Retro Mind LLC as a frontend developer.",
+        detail: "Joined Retro Mind LLC as a frontend developer, working remotely.",
       },
       {
         year: "Now",
-        title: "Focused on frontend",
-        detail: "Building real products while finishing my degree.",
+        title: "Still shipping",
+        detail:
+          "Working remotely while I study — building real products, not side demos.",
       },
     ],
 
     nowBody:
-      "Studying in Pisa and doing frontend work. Open to new projects and collaborations.",
+      "Studying in Pisa and working remotely for Retro Mind LLC. Open to new projects and remote collaborations.",
 
     portraitAlt: "Choijamts",
   },

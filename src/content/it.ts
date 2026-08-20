@@ -25,7 +25,7 @@ export const it: Dictionary = {
     line2: "interfacce —",
     accent: "chiare e fluide.",
     subcopy:
-      "Frontend per prodotti web con React, Next.js e TypeScript. Vivo a Pisa e lavoro in team.",
+      "Frontend per prodotti web con React, Next.js e TypeScript. Vivo a Pisa e lavoro da remoto con il team, mentre studio.",
     ctaWork: "Guarda i lavori",
     ctaContact: "Contattami",
   },
@@ -37,7 +37,7 @@ export const it: Dictionary = {
       "Sono Choijamts, sviluppatore frontend. Mi interessano le interfacce che si capiscono al primo secondo e restano veloci nell'uso reale.",
     story: [
       "Studio Informatica all'Università di Pisa, a Pisa. Lavorare su progetti reali accanto allo studio è ciò che mi ha insegnato di più.",
-      "Da luglio 2026 lavoro come sviluppatore frontend presso Retro Mind LLC. Faccio inoltre parte del team di SparkXP, dove mi occupo del frontend.",
+      "Da luglio 2026 lavoro da remoto come sviluppatore frontend presso Retro Mind LLC, dall'Italia — e continuo anche durante i corsi. Faccio inoltre parte del team di SparkXP, dove mi occupo del frontend.",
     ],
 
     principlesLabel: "Principi",
@@ -69,17 +69,18 @@ export const it: Dictionary = {
       {
         year: "2026 · luglio",
         title: "Primo lavoro",
-        detail: "Entrato in Retro Mind LLC come sviluppatore frontend.",
+        detail: "Entrato in Retro Mind LLC come sviluppatore frontend, da remoto.",
       },
       {
         year: "Oggi",
-        title: "Concentrato sul frontend",
-        detail: "Costruisco prodotti reali mentre completo gli studi.",
+        title: "Continuo a lavorare",
+        detail:
+          "Lavoro da remoto mentre studio — prodotti veri, non esercizi.",
       },
     ],
 
     nowBody:
-      "Studio a Pisa e lavoro nel frontend. Disponibile per nuovi progetti e collaborazioni.",
+      "Studio a Pisa e lavoro da remoto per Retro Mind LLC. Disponibile per nuovi progetti e collaborazioni da remoto.",
 
     portraitAlt: "Choijamts",
   },
