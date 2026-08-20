@@ -147,7 +147,7 @@ export const it: Dictionary = {
         title: "Lavoro di squadra",
         description:
           "Collaborazione tramite Git e traduzione fedele dal design al codice.",
-        tech: ["Git", "GitHub", "Figma", "REST API"],
+        tech: ["Git", "GitHub", "REST API"],
       },
     ],
   },

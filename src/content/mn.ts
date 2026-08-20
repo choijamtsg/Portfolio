@@ -151,7 +151,7 @@ export const mn: Dictionary = {
         title: "Хамтын ажиллагаа",
         description:
           "Git-ээр багаар ажиллах, дизайнаас код руу үнэн зөв хөрвүүлэх.",
-        tech: ["Git", "GitHub", "Figma", "REST API"],
+        tech: ["Git", "GitHub", "REST API"],
       },
     ],
   },
