@@ -76,8 +76,18 @@ Instrument Serif → **Playfair Display** → Georgia гэсэн дараала�
 
 1. GitHub рүү push.
 2. [vercel.com](https://vercel.com) → **Add New → Project** → repo сонгох → **Deploy**.
-3. `src/content/config.ts` доторх `SITE.url`-ыг жинхэнэ домэйнээрээ солих
-   (SEO, sitemap, hreflang үүнээс хамаарна).
+3. Дуусмагц `xxx.vercel.app` хаяг өгнө — **өөр юу ч тохируулах шаардлагагүй**.
+
+Сайтын хаягийг `src/lib/site-url.ts` автоматаар олно:
+
+| Дараалал | Эх сурвалж |
+|---|---|
+| 1 | `NEXT_PUBLIC_SITE_URL` — өөрийн домэйн авбал Vercel дээр энэ хувьсагчийг нэм |
+| 2 | `VERCEL_PROJECT_PRODUCTION_URL` — Vercel өөрөө өгнө (`…vercel.app`) |
+| 3 | `http://localhost:3000` — дотоод хөгжүүлэлт |
+
+sitemap, `hreflang`, OpenGraph бүгд эндээс хаягаа авдаг тул домэйн авсны дараа
+зөвхөн нэг env хувьсагч нэмэхэд хангалттай.
 
 ## Бүтэц
 

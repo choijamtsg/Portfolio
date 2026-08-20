@@ -7,8 +7,6 @@ export const SITE = {
   /** Нэр нь бүх хэл дээр латинаар бичигдэнэ */
   name: "Choijamts",
   email: "choijamts.gk@gmail.com",
-  /** Deploy хийсний дараа жинхэнэ домэйнээ бич */
-  url: "https://choijamts.dev",
 } as const;
 
 export const NAV_ITEMS = [

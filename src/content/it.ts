@@ -37,7 +37,7 @@ export const it: Dictionary = {
       "Sono Choijamts, sviluppatore frontend. Mi interessano le interfacce che si capiscono al primo secondo e restano veloci nell'uso reale.",
     story: [
       "Studio Informatica all'Università di Pisa, a Pisa. Lavorare su progetti reali accanto allo studio è ciò che mi ha insegnato di più.",
-      "Da luglio 2026 lavoro come sviluppatore frontend. Ho inoltre fatto parte del team di SparkXP, dove mi sono occupato del frontend.",
+      "Da luglio 2026 lavoro come sviluppatore frontend presso Retro Mind LLC. Faccio inoltre parte del team di SparkXP, dove mi occupo del frontend.",
     ],
 
     principlesLabel: "Principi",
@@ -69,7 +69,7 @@ export const it: Dictionary = {
       {
         year: "2026 · luglio",
         title: "Primo lavoro",
-        detail: "Ho iniziato a lavorare come sviluppatore frontend.",
+        detail: "Entrato in Retro Mind LLC come sviluppatore frontend.",
       },
       {
         year: "Oggi",

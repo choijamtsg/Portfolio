@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SITE } from "@/content/config";
+import { getSiteUrl } from "@/lib/site-url";
 import { displayCyrillic, displayLatin, sans } from "@/lib/fonts";
 import {
   getDictionary,
@@ -25,9 +26,10 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const t = getDictionary(locale);
+  const siteUrl = getSiteUrl();
 
   return {
-    metadataBase: new URL(SITE.url),
+    metadataBase: new URL(siteUrl),
     title: t.meta.title,
     description: t.meta.description,
     alternates: {
@@ -38,7 +40,7 @@ export async function generateMetadata({
     },
     openGraph: {
       type: "website",
-      url: `${SITE.url}/${locale}`,
+      url: `${siteUrl}/${locale}`,
       title: t.meta.title,
       description: t.meta.description,
       siteName: SITE.name,
