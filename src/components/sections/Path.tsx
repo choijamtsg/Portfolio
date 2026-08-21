@@ -7,7 +7,7 @@ export default function Path({ t }: { t: Dictionary }) {
   return (
     <section className="shell pb-[var(--section-y)]">
       <Reveal>
-        <Card className="p-8 sm:p-10" lift={false}>
+        <Card className="p-6 sm:p-8 lg:p-10" lift={false}>
           <p className="label mb-8">{t.about.pathLabel}</p>
 
           <ol className="grid grid-cols-[repeat(auto-fit,minmax(210px,1fr))] gap-8">

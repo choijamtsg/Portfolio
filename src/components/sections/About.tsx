@@ -14,7 +14,7 @@ export default function About({ t }: { t: Dictionary }) {
       <div className="grid gap-4 lg:grid-cols-[1.35fr_1fr]">
         {/* Танилцуулга */}
         <Reveal>
-          <Card className="h-full p-8 sm:p-10" lift={false}>
+          <Card className="h-full p-6 sm:p-8 lg:p-10" lift={false}>
             <h2 className="display text-[clamp(1.8rem,3.4vw,2.6rem)]">
               {t.about.headline}
             </h2>
@@ -31,7 +31,7 @@ export default function About({ t }: { t: Dictionary }) {
 
         {/* Зарчим */}
         <Reveal delay={0.1}>
-          <Card tone="sage" className="h-full p-8 sm:p-10" lift={false}>
+          <Card tone="sage" className="h-full p-6 sm:p-8 lg:p-10" lift={false}>
             <p className="label mb-6">{t.about.principlesLabel}</p>
             <ul className="space-y-6">
               {t.about.principles.map((pr, i) => (

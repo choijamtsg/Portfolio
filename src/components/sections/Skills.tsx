@@ -26,7 +26,7 @@ export default function Skills({ t }: { t: Dictionary }) {
           <Reveal key={g.index} delay={0.08 + i * 0.07}>
             <Card
               tone={TONES[i % TONES.length]}
-              className="flex h-full flex-col p-7"
+              className="flex h-full flex-col p-6 sm:p-7"
             >
               <span className="text-xs text-accent">{g.index}</span>
               <h3 className="display mt-3 text-xl">{g.title}</h3>
