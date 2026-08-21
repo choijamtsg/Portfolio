@@ -35,12 +35,18 @@ function Project({
   toneClass: (typeof BOX_TONES)[number];
 }) {
   return (
-    <Card className="p-8 sm:p-10" lift={false}>
-      <div className="grid gap-9 lg:grid-cols-[1.15fr_1fr] lg:items-center lg:gap-12">
+    <Card className="p-6 sm:p-8 lg:p-10" lift={false}>
+      <div className="grid gap-7 sm:gap-9 lg:grid-cols-[1.15fr_1fr] lg:items-center lg:gap-12">
         <div>
-          <span className="inline-block rounded-full bg-sage px-3.5 py-1.5 text-xs text-accent">
-            {copy.category} · {t.work.roleLabel}: {copy.role}
-          </span>
+          {/* Хоёр тусдаа шошго — нэг урт бөмбөлөг утсан дээр олон мөр болж эвдэрдэг */}
+          <div className="flex flex-wrap gap-2">
+            <span className="rounded-full bg-sage px-3.5 py-1.5 text-xs text-accent">
+              {copy.category}
+            </span>
+            <span className="rounded-full bg-background px-3.5 py-1.5 text-xs text-dim">
+              {t.work.roleLabel}: {copy.role}
+            </span>
+          </div>
 
           <h3 className="display mt-4 text-[clamp(2rem,4vw,3rem)]">
             {copy.title}
@@ -48,7 +54,7 @@ function Project({
 
           <p className="mt-4 max-w-[50ch] text-dim">{copy.summary}</p>
 
-          <div className="mt-7 grid gap-5 sm:grid-cols-3">
+          <div className="mt-6 grid gap-5 sm:mt-7 sm:grid-cols-3">
             <Detail label={t.work.problemLabel} body={copy.problem} />
             <Detail label={t.work.solutionLabel} body={copy.solution} />
             <Detail label={t.work.statusLabel} body={copy.status} />

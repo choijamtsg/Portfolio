@@ -30,7 +30,7 @@ export default function InfoCards({ t }: { t: Dictionary }) {
       <div className="grid gap-4 sm:grid-cols-3">
         {cards.map((c, i) => (
           <Reveal key={c.k} delay={i * 0.08}>
-            <Card tone={c.tone} className="flex h-full flex-col p-7">
+            <Card tone={c.tone} className="flex h-full flex-col p-6 sm:p-7">
               <p className="label">{c.k}</p>
               <h3 className="display mt-2 text-2xl">{c.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-dim">{c.body}</p>

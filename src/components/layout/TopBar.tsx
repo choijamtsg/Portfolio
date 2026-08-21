@@ -59,8 +59,8 @@ export default function TopBar({
         scrolled ? "bg-background/85 backdrop-blur-xl" : "bg-transparent"
       }`}
     >
-      <div className="shell flex items-center justify-between py-5">
-        <a href="#top" className="display text-xl">
+      <div className="shell flex items-center justify-between py-4 sm:py-5">
+        <a href="#top" className="display text-lg sm:text-xl">
           {SITE.name}
         </a>
 

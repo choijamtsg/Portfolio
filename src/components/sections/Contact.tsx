@@ -17,7 +17,7 @@ export default function Contact({ t }: { t: Dictionary }) {
         <Card
           tone="accent"
           lift={false}
-          className="px-8 py-14 text-center sm:px-12 sm:py-20"
+          className="px-6 py-12 text-center sm:px-12 sm:py-20"
         >
           <h2 className="display text-[clamp(2rem,5vw,3.75rem)]">
             {t.contact.line1}{" "}
