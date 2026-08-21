@@ -82,7 +82,7 @@ export default function Hero({ t }: { t: Dictionary }) {
           initial={{ opacity: 0, scale: 0.96 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.2, ease: EASE }}
-          className="relative mx-auto w-full max-w-[17rem] overflow-hidden rounded-[var(--r-lg)] bg-clay md:max-w-none"
+          className="relative mx-auto w-full max-w-[15rem] overflow-hidden rounded-[var(--r-lg)] bg-clay sm:max-w-[17rem] md:max-w-none"
         >
           <div className="relative aspect-[4/5]">
             <Image
