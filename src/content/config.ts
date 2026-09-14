@@ -32,8 +32,6 @@ export type ProjectMeta = {
   id: string;
   /** Бүтээгдэхүүний зураг — байхгүй бол null (автомат дэвсгэр гарна) */
   image: string | null;
-  /** Зургийн таслалтын байрлал, CSS object-position (жишээ: "85% 50%") */
-  imagePosition?: string;
   liveUrl?: string;
   repoUrl?: string;
 };
@@ -45,9 +43,24 @@ export type ProjectMeta = {
 export const PROJECTS: ProjectMeta[] = [
   {
     id: "sparkxp",
-    /* SparkXP-ийн брэнд зураг. Аппын жинхэнэ дэлгэц авбал энэ замыг сольно. */
-    image: "/images/work/sparkxp-hero.webp",
-    /* Үнэг зургийн баруун талд байдаг тул баруун тийш шахаж таслана */
-    imagePosition: "88% 50%",
+    image: "/images/work/sparkxp.webp",
+    liveUrl: "https://spark-xp-web.vercel.app/",
+    repoUrl: "https://github.com/usukh6ayar/SparkXP",
+  },
+  {
+    id: "nomadkids",
+    image: "/images/work/nomadkids.webp",
+    liveUrl: "https://nomadkids.mn/",
+    repoUrl: "https://github.com/usukh6ayar/NomadKids",
+  },
+  {
+    /* Repo нь хаалттай тул код руу холбоос тавихгүй — зочин 404 харах болно */
+    id: "carcare",
+    image: "/images/work/carcare.webp",
+  },
+  {
+    /* Мөн хаалттай. Нээвэл энд repoUrl нэмнэ. */
+    id: "guessthesong",
+    image: "/images/work/guessthesong.webp",
   },
 ];
