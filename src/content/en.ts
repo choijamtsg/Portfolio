@@ -103,16 +103,64 @@ export const en: Dictionary = {
         title: "SparkXP",
         category: "Education · Team project",
         year: "2026",
-        role: "Frontend developer",
+        role: "Frontend — app and landing site",
         summary:
           "A gamified English-learning app for students in Mongolia — lessons, spaced repetition, XP and streaks.",
         problem:
           "English-learning apps available in Mongolia felt rigid, with little reason to come back daily.",
         solution:
-          "We turned learning into a game: structured lessons, spaced-repetition vocabulary, XP, streaks and leaderboards. I owned the frontend — the screens and user flows.",
+          "We turned learning into a game: structured lessons, spaced-repetition vocabulary, XP, streaks and leaderboards. I owned the frontend — the screens and user flows. I also built the landing site from scratch, including its 3D hero in react-three-fiber, and later handed it over to the team lead.",
         status:
           "In active development with the team. Measured results will be added here once we have them.",
-        stack: ["React Native", "Expo", "TypeScript"],
+        stack: ["React Native", "Expo", "TypeScript", "Next.js", "React Three Fiber"],
+      },
+
+      nomadkids: {
+        title: "NomadKids",
+        category: "Education · Team project",
+        year: "2026",
+        role: "Frontend — API integration",
+        summary:
+          "A kindergarten system that keeps each child's development as a digital portfolio, with its own screens for teachers, directors, accountants and parents.",
+        problem:
+          "Kindergartens still track child development on paper, and the official records in ESIS never reach the teacher's day-to-day work.",
+        solution:
+          "I wired the Next.js web app to the NestJS API and put each ESIS service on the screen of the person who owns it — group rosters, a child's record, reports, charts and password recovery.",
+        status:
+          "Deployed and running at nomadkids.mn. The Phase 1 MVP passes 690 automated tests.",
+        stack: ["Next.js", "NestJS", "Prisma", "PostgreSQL", "TypeScript"],
+      },
+
+      carcare: {
+        title: "CarCare",
+        category: "Mobile app · Team project",
+        year: "2026",
+        role: "Frontend developer",
+        summary:
+          "A React Native app for drivers — nearby services, EV chargers and fuel stations on a single map.",
+        problem:
+          "Chargers, fuel stations and repair shops live in separate places, so finding the closest one means checking several sources.",
+        solution:
+          "I added the EV-charger and fuel-station layers on MapLibre and brought them up to parity with the merchants map — search, clustering and detail cards. I also stopped buildings from showing through satellite view and fixed a search keyboard that would not dismiss.",
+        status:
+          "In active development on the dev branch. Not in the stores yet.",
+        stack: ["React Native", "TypeScript", "MapLibre", "React Query"],
+      },
+
+      guessthesong: {
+        title: "Guess the Song",
+        category: "Game · Personal project",
+        year: "2026",
+        role: "Solo — everything",
+        summary:
+          "A web game for guessing Mongolian songs. You hear a short clip and name the track — each miss makes the clip longer and the score smaller.",
+        problem:
+          "Songspot-style guessing games had no Mongolian catalogue, and foreign apps do not carry the music.",
+        solution:
+          "The catalogue builds itself from Apple's open Search API — 472 songs whose 30-second previews play straight in the browser through Web Audio, with no key and no server. Chart position and artist weight sort them into five difficulty tiers automatically.",
+        status:
+          "The core game loop works. The repo is private and it is not published yet.",
+        stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Web Audio API"],
       },
     },
   },

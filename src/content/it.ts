@@ -103,16 +103,64 @@ export const it: Dictionary = {
         title: "SparkXP",
         category: "Educazione · Progetto di squadra",
         year: "2026",
-        role: "Sviluppatore frontend",
+        role: "Frontend — app e sito vetrina",
         summary:
           "App gamificata per l'apprendimento dell'inglese rivolta agli studenti in Mongolia — lezioni, ripetizione dilazionata, XP e serie giornaliere.",
         problem:
           "Le app per imparare l'inglese disponibili in Mongolia risultavano rigide e davano poche ragioni per tornare ogni giorno.",
         solution:
-          "Abbiamo trasformato lo studio in un gioco: lezioni strutturate, vocabolario a ripetizione dilazionata, XP, serie e classifiche. Io mi sono occupato del frontend — schermate e flussi utente.",
+          "Abbiamo trasformato lo studio in un gioco: lezioni strutturate, vocabolario a ripetizione dilazionata, XP, serie e classifiche. Mi sono occupato del frontend — schermate e flussi utente. Ho anche costruito da zero il sito vetrina, con il suo hero 3D in react-three-fiber, per poi cederlo al capo del team.",
         status:
           "In sviluppo attivo con il team. I risultati misurati saranno aggiunti qui non appena disponibili.",
-        stack: ["React Native", "Expo", "TypeScript"],
+        stack: ["React Native", "Expo", "TypeScript", "Next.js", "React Three Fiber"],
+      },
+
+      nomadkids: {
+        title: "NomadKids",
+        category: "Educazione · Progetto di squadra",
+        year: "2026",
+        role: "Frontend — integrazione API",
+        summary:
+          "Un sistema per asili che raccoglie lo sviluppo di ogni bambino in un portfolio digitale, con schermate dedicate a maestre, direzione, amministrazione e genitori.",
+        problem:
+          "Gli asili registrano ancora lo sviluppo dei bambini su carta, e i dati ufficiali di ESIS non arrivano mai al lavoro quotidiano delle maestre.",
+        solution:
+          "Ho collegato l'app web Next.js alle API NestJS e ho portato ogni servizio ESIS sulla schermata di chi lo usa davvero: elenchi dei gruppi, scheda del bambino, report, grafici e recupero password.",
+        status:
+          "Online su nomadkids.mn. L'MVP della fase 1 supera 690 test automatici.",
+        stack: ["Next.js", "NestJS", "Prisma", "PostgreSQL", "TypeScript"],
+      },
+
+      carcare: {
+        title: "CarCare",
+        category: "App mobile · Progetto di squadra",
+        year: "2026",
+        role: "Sviluppatore frontend",
+        summary:
+          "Un'app React Native per automobilisti — servizi vicini, colonnine di ricarica e distributori di carburante su un'unica mappa.",
+        problem:
+          "Colonnine, distributori e officine stanno in posti diversi: per trovare il più vicino bisogna consultare più fonti.",
+        solution:
+          "Ho aggiunto i livelli delle colonnine elettriche e dei distributori su MapLibre, portandoli allo stesso livello della mappa dei negozi — ricerca, clustering e schede di dettaglio. Ho inoltre eliminato gli edifici che comparivano sulla vista satellitare e corretto una tastiera di ricerca che non si chiudeva.",
+        status:
+          "In sviluppo attivo sul branch dev. Non è ancora sugli store.",
+        stack: ["React Native", "TypeScript", "MapLibre", "React Query"],
+      },
+
+      guessthesong: {
+        title: "Indovina la canzone",
+        category: "Gioco · Progetto personale",
+        year: "2026",
+        role: "Da solo — tutto",
+        summary:
+          "Un gioco web per indovinare canzoni mongole. Si ascolta una clip breve e si nomina il brano — a ogni errore la clip si allunga e il punteggio scende.",
+        problem:
+          "I giochi in stile Songspot non avevano un catalogo mongolo, e le app straniere non portano questa musica.",
+        solution:
+          "Il catalogo si costruisce da solo dalla Search API aperta di Apple — 472 brani le cui anteprime da 30 secondi suonano direttamente nel browser via Web Audio, senza chiavi e senza server. Posizione in classifica e peso dell'artista li dividono automaticamente in cinque livelli di difficoltà.",
+        status:
+          "Il ciclo di gioco principale funziona. Il repository è privato e non è ancora pubblicato.",
+        stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Web Audio API"],
       },
     },
   },
